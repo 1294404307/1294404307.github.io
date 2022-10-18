@@ -53,6 +53,17 @@ body{
     grid-row: 2/3;
     text-align: center;
 }
+.Sname-mmj{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.Sname-czq{
+    grid-column: 1/2;
+    grid-row:3/4;
+    text-align: center;
+}
 
 .occu{
     font-size: larger;
