@@ -1,0 +1,1 @@
+document.write("java脚本")
