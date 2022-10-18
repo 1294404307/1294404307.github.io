@@ -9,184 +9,8 @@
 		
 		<meta charset="UTF-8">
 		<meta name="keywords" content="基团,C145,GAY">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<style>
-			.login_2:invalid,.login_1:invalid{
-				outline: 1px solid red;
-			}
-			.login_2:valid,.login_1:valid{
-				outline: 1px solid blue;
-			}
-			footer :link{
-				color:black;
-			}
-			footer :visited{
-				color:blue;
-			}
-			footer :hover{
-				color: chocolate;
-			}
-			footer :active{
-				color:aquamarine
-			}
-			footer{
-				background-color:#9795f0;
-				width:1505px;
-			}
-			footer div:first-child{
-				background-color:rgb(121, 121, 226);
-				font-weight:bolder;
-				text-align:center;
-			}
-			body{
-				background-image: linear-gradient(135deg,#9795f0 0%,#fbc8d4 100%);
-			}
-			
-			section .jumpbox{
-				width:1000px;
-				
-				background-color:white;
-				margin:0 auto;
-				display: grid;
-				grid-template-areas:
-				'jumpboxheader'
-				'jumpboximg'
-				;
-				grid-template-rows:50px 450px;
-			}
-
-			section .jumpbox .jumpboxheader{
-				grid-area:jumpboxheader;
-				display: grid;
-				grid-template-columns: repeat(5,auto);
-				/* margin:3px 3px 0px 3px; */
-			} 
-
-			section .jumpbox .jumpboxheader > div{
-				position: relative;
-				background-color: lightsalmon;
-				
-			}
-
-			section .jumpbox .jumpboxheader span{
-				width:4em;
-				height: 2em;
-				position: absolute;
-				margin:auto;
-				top:0;
-				bottom:0;
-				left: 0;
-				right: 0;
-				text-shadow:0 5px 15px;
-			}
-
-			section .jumpbox .jumpboxheader span a{
-				text-decoration: none;
-				color: black;
-			}
-
-			section .jumpbox .jumpboxheader > div:hover{
-				background-color: lightblue;
-				transform: scale(1.2,1.2);
-				z-index: 1;
-				
-			}
-
-			section .jumpbox .jumpboximg{
-				grid-area:jumpboximg;
-				/* margin:0px 3px 0px 3px; */
-			}
-
-			section .jumpbox .jumpboximg{
-				position: relative;
-				
-			}
-
-			section .jumpbox .jumpboximg img{
-				box-shadow: 0 0 5px;
-
-			}
-
-			section .jumpbox .jumpboximg img:hover{
-				transform: scale(1.2,1.2);
-				transition:2s;
-				z-index: 1;
-			}
-
-			section .jumpbox .jumpboximg img:nth-child(1){
-				width:170px;
-				position: absolute;
-				top:5px;
-				left: 5px;
-			}
-
-			section .jumpbox .jumpboximg img:nth-child(2){
-				width:170px;
-				height: 210px;
-				position: absolute;
-				bottom:5px;
-				left: 5px;
-			}
-
-			section .jumpbox .jumpboximg img:nth-child(3){
-				width:170px;
-				height: 210px;
-				position:absolute;
-				right:5px;
-				top:5px;
-				
-			}
-
-			section .jumpbox .jumpboximg img:nth-child(4){
-				width:170px;
-				height: 220px;
-				position:absolute;
-				right:5px;
-				bottom:5px;
-			}
-			section .jumpbox .jumpboximg img:nth-child(5){
-				width:640px;
-				height:440px;
-				position:absolute;
-				left:180px;
-				bottom:5px;
-			}
-			.img_1{
-				width:128px;
-				position: absolute;
-				left: 90px;
-				top:100px;
-				transition: 2s;
-				transform: rotate(45deg);
-			}
-			.img_1:hover{
-				width:180px;
-				transform:rotate(315deg);
-			}
-			.img_6{
-				width:128px;
-				position: absolute;
-				right: 90px;
-				top:100px;
-				transition: 2s;
-				transform: rotate(-45deg);
-			}
-			.img_6:hover{
-				width:180px;
-				transform: rotate(45deg);
-			}
-			.welcome{
-				position:absolute;
-				top:15px;
-				left:10px;
-			}
-			header{
-				border-bottom: 1px solid black;
-			}
-			section .jumpbox .JTintroduction{
-				grid-area:JTintroduction;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+		
 	</head>
 	
 	<body>
@@ -211,7 +35,7 @@
 					<div class="webheadpage"><span><a href="index.html">网站首页</a></span></div>
 					<div class="leaderinfo"><span><a href="副页/JTldbz.html" target="_blank">领导班子</a></span></div>
 					<div class="poetry"><span><a href="副页/CFLSPoetry.html" target="_blank">诗词大会</a></span></div>
-					<div class="activevideo"><span><a href="副页/CFLSactive.html" target="_blank">活动视频</a></span></div>
+					<div class="activevideo"><span><a href="VideoPage/video1.html" target="_blank">活动视频</a></span></div>
 					<div class="activephoto"><span>基团风采</span></div>
 				</div>
 				<div class="jumpboximg">
@@ -220,6 +44,25 @@
 					<img src="img/IMG_5.jpg" alt="图片">
 					<img src="img/IMG_2.jpg" alt="图片">
 					<img src="img/C145hezhao.jpg" alt="图片">
+				</div>
+				<div class="JTjs">
+					<div class="th"><img src=img/JT.jpg alt="团徽" width="256px"></div>
+					<p>名称：基团</p>
+					<p>成立时间：2016年9月10日</p>
+					<p>成立地点：长外C145班</p>
+					<p>性质：学生团体组织</p>
+					<p>团长：刘子奕</p>
+					<p>基团左手：欧阳宏俊    基团右手：龚明辉    御用摄影师：陈楚锋</p>
+					<p>主要成员：欧阳宏俊，陈楚锋，龚明辉，李豪强，马明骏，陈梓强，陈超，胡鑫，李子盟，王坤，周航，余润泽，欧阳志明。</p>
+					<p>口号：奈(nái)斯(sà),奈斯，大奈斯</p>
+					
+					
+					<p>简介：
+					长沙外国语学校C145班级的学生自发组织建立了基团，并于2016年12月10日
+					举行了庆祝基团成立百日活动，并在之后的日子里不断壮大，因其活动声势之浩大，
+					常常引来隔壁班级的围观，并逐渐闻名整校。现基团各个成员散落各地，势力之广泛，
+					并且基团于国家梵蒂冈储备了足量基团后备军队，可见基团之强大。
+					</p>	
 				</div>
 			</div>
 		</section>
