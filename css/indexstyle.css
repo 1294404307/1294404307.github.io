@@ -1,0 +1,208 @@
+.JTname{
+	color:red;
+	position:relative;
+	text-align:center;
+}
+.topinfop,.secinfop{
+	text-align:center;
+	color:blue;
+}
+.login_2:invalid,.login_1:invalid{
+	outline: 1px solid red;
+}
+.login_2:valid,.login_1:valid{
+	outline: 1px solid blue;
+}
+footer :link{
+	color:black;
+}
+footer :visited{
+	color:blue;
+}
+footer :hover{
+	color: chocolate;
+}
+footer :active{
+	color:aquamarine
+}
+footer{
+	background-color:#9795f0;
+	width:100%;
+}
+footer div:first-child{
+	background-color:rgb(121, 121, 226);
+	font-weight:bolder;
+	text-align:center;
+}
+body{
+	background-image: linear-gradient(135deg,#9795f0 0%,#fbc8d4 100%);
+}
+
+section .jumpbox{
+	width:1000px;
+	
+	background-color:white;
+	margin:0 auto;
+	display: grid;
+	grid-template-areas:
+	'jumpboxheader'
+	'jumpboximg'
+	'JTjs'
+	;
+	grid-template-rows:50px 450px 500px;
+}
+
+section .jumpbox .jumpboxheader{
+	grid-area:jumpboxheader;
+	display: grid;
+	grid-template-columns: repeat(5,auto);
+	border-radius: 10px 10px 0 0;
+	/* margin:3px 3px 0px 3px; */
+} 
+
+section .jumpbox .jumpboxheader > div{
+	position: relative;
+	background-color: lightsalmon;
+	
+}
+
+section .jumpbox .jumpboxheader span{
+	width:4em;
+	height: 2em;
+	position: absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	text-shadow:0 5px 15px;
+}
+
+section .jumpbox .jumpboxheader span a{
+	text-decoration: none;
+	color: black;
+}
+
+section .jumpbox .jumpboxheader > div:hover{
+	background-color: lightblue;
+	transform: scale(1.2,1.2);
+	z-index: 1;
+	
+}
+
+section .jumpbox .jumpboximg{
+	grid-area:jumpboximg;
+	/* margin:0px 3px 0px 3px; */
+}
+
+section .jumpbox .jumpboximg{
+	position: relative;
+	
+}
+.JTjs{
+	grid-area: JTjs;
+	border-top:1px black solid;
+}
+.JTjs p{
+	white-space:pre-wrap;
+	text-align: left;
+	border: 1px black;
+	background-color: rgb(226, 241, 241);
+	margin: 10px;
+	margin-top: 20px;
+	font-size: large;
+}
+
+.JTjs .th{
+	float:right;
+	padding: 10px;
+}
+
+.JTjs p:last-of-type{
+	white-space:normal;
+}
+
+section .jumpbox .jumpboximg img{
+	box-shadow: 0 0 5px;
+
+}
+
+section .jumpbox .jumpboximg img:hover{
+	transform: scale(1.2,1.2);
+	transition:2s;
+	z-index: 1;
+}
+
+section .jumpbox .jumpboximg img:nth-child(1){
+	width:170px;
+	position: absolute;
+	top:5px;
+	left: 5px;
+}
+
+section .jumpbox .jumpboximg img:nth-child(2){
+	width:170px;
+	height: 210px;
+	position: absolute;
+	bottom:5px;
+	left: 5px;
+}
+
+section .jumpbox .jumpboximg img:nth-child(3){
+	width:170px;
+	height: 210px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	
+}
+
+section .jumpbox .jumpboximg img:nth-child(4){
+	width:170px;
+	height: 220px;
+	position:absolute;
+	right:5px;
+	bottom:5px;
+}
+section .jumpbox .jumpboximg img:nth-child(5){
+	width:640px;
+	height:440px;
+	position:absolute;
+	left:180px;
+	bottom:5px;
+}
+.img_1{
+	width:128px;
+	position: absolute;
+	left: 90px;
+	top:100px;
+	transition: 2s;
+	transform: rotate(45deg);
+}
+.img_1:hover{
+	width:180px;
+	transform:rotate(315deg);
+}
+.img_6{
+	width:128px;
+	position: absolute;
+	right: 90px;
+	top:100px;
+	transition: 2s;
+	transform: rotate(-45deg);
+}
+.img_6:hover{
+	width:180px;
+	transform: rotate(45deg);
+}
+.welcome{
+	position:absolute;
+	top:15px;
+	left:10px;
+}
+header{
+	border-bottom: 1px solid black;
+}
+section .jumpbox .JTintroduction{
+	grid-area:JTintroduction;
+}
