@@ -1,8 +1,20 @@
+@font-face {
+	font-family: lishu;
+	src: url('../font//4094_方正隶二_GBK.ttf');
+}
+
 .JTname{
 	color:red;
 	position:relative;
 	text-align:center;
 }
+
+.JTname abbr{
+	text-decoration-line: none;
+	font-family: lishu;
+	font-size: 50px;;
+}
+
 .topinfop,.secinfop{
 	text-align:center;
 	color:blue;
