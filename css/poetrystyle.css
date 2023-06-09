@@ -1,0 +1,75 @@
+@font-face {
+    font-family: lishu;
+    src: url('../font/4094_方正隶二_GBK.ttf');
+}
+
+body{
+    background: linear-gradient(45deg,blue 0%,pink);
+}
+
+.jtback{
+    text-align:center;
+}
+
+.jtback .jtbiao{
+    width:96px;
+}
+.headtitle{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: lishu;
+}
+.page{
+    width:auto;
+    height:2000px;
+    margin:0 auto;
+    
+}
+.n-column{
+    column-count: 3;
+    margin:5px 100px;
+    
+}
+.poetryallbox{
+    padding:10px;
+    border: 1px solid pink;
+    column-fill:balance;
+    margin-bottom: 20px;
+    overflow:hidden;
+    box-shadow:0 0 5px;
+    border-radius: 10px;
+    
+}
+.poetryallbox div{
+    text-align: center;
+    margin:auto;
+    font-size:150%;
+    font-family: lishu;
+}
+/* .Left{
+    width:100px;
+    border:1px plum solid;
+    height:1000px;
+    float:left;
+    margin-bottom: 10px;
+}
+.Right{
+    width:100px;
+    border:1px solid darkblue;
+    height:1000px;
+    float:right;
+    margin-bottom: 10px;
+} */
+
+/* .n-column .poetryallbox:nth-child(11){ */
+     /* background-image: url('../img/见子奕湘江赋有感.png'); */
+    /* background-repeat: no-repeat; 
+    background-size: 50%; */
+/* } */
+
+/* .poetryallbox img{
+    width: fit-content;
+    height: 200px;
+} */
